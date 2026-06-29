@@ -1,0 +1,23 @@
+{
+  "name": "playcanvas-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:splat-transform": "node tools/test-splat-transform.mjs",
+    "generate:test-splats": "node tools/generate-test-splats.mjs",
+    "generate:surface-test-splats": "node tools/generate-surface-test-splats.mjs",
+    "prepare:research-volume": "node tools/prepare-research-volume.mjs",
+    "run:research-volume": ".venv-research/Scripts/python.exe tools/run-research-volume.py",
+    "run:density-surface-volume": ".venv-research/Scripts/python.exe tools/run-density-surface-volume.py"
+  },
+  "dependencies": {
+    "@playcanvas/splat-transform": "^2.0.3",
+    "playcanvas": "^2.17.2"
+  },
+  "devDependencies": {
+    "vite": "^7.1.12"
+  }
+}

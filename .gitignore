@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+official-engine/node_modules/
+official-engine/examples/node_modules/
+
+# Build outputs
+dist/
+official-engine/examples/dist/
+
+# Generated assets
+generated/
+official-engine/examples/assets/splats/test*.ply
+official-engine/examples/assets/splats/surface*.ply
+official-engine/examples/assets/volumes/
+
+# Local external tools and research environments
+external_method/
+.venv-research/
+__pycache__/
+*.py[cod]
+
+# Local Codex / agent state
+.agents/
+.codex/
+
+# Logs and editor files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+.cursor/
+.idea/
+.vscode/
+
+official-engine/.git-local-backup/
